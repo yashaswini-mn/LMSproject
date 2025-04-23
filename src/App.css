@@ -1,0 +1,16 @@
+/* Add this CSS to your project */
+.nav-item {
+  position: relative;
+}
+
+.nav-item:hover::before {
+  content: "";
+  position: absolute;
+  left: -12px; /* Adjust position as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #EC5C2A; /* Same color as hover text */
+}
