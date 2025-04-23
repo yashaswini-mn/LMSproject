@@ -39,7 +39,7 @@ export default function Orbiting() {
       </div>
 
       {/* Orbiting Icons */}
-      {icons.map((Icon, i) => (
+      {icons.map((Icon, i) =>(
         <div
           key={i}
           className={`absolute w-24 h-24 flex items-center justify-center text-4xl text-[#13A586] transition-all duration-[2000ms] ease-in-out transform ${getPositionClasses(positions[i])}`}
